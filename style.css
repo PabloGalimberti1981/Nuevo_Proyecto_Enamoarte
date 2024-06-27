@@ -7,11 +7,12 @@
 }
 
 .crearProductosTienda{
+  background-color: salmon;
   max-width: 300px;
   text-align: center;
-  background-color: var(--accent-color-claro);
   padding: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
   transition: 200ms;
 }
 
@@ -25,7 +26,19 @@
   aspect-ratio: 1.5;
 }
 
+.precio{
+  font-weight: 600;
+}
 
+.crearProductosTienda button{
+  font-size: larger;
+  background-color: var(--color-acento);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  border:unset;
+  cursor:pointer;
+}
 
 
 

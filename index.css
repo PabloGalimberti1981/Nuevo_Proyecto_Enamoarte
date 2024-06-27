@@ -55,11 +55,6 @@
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     color: white;
     background-color: salmon;
-
-  }
-
-  #logocarrito{
-    height: 40px;
   }
 
   header nav img{
@@ -122,9 +117,11 @@
     position: absolute;
   }
 
-  #logocarrito{
+  #logo-carrito{
     height: 40px;
   }
+
+
 
   #logo-enamorarte {
     display: flex;
@@ -139,7 +136,7 @@
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       ),
-      url("img.jpg/logo-enamorarte.jpeg");
+      url("img/logo-enamorarte.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -184,7 +181,7 @@
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       )
-      ,url("img.jpg/didactico_pesca.jpg");
+      ,url("img/didactico_pesca.jpg");
   }
 
   .carta:nth-child(2) {
@@ -193,7 +190,7 @@
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       )
-      ,url("img.jpg/libreria_agendas.jpeg");
+      ,url("img/libreria_agendas.jpeg");
   }
   .carta:nth-child(3) {
     background-image: linear-gradient(
@@ -201,7 +198,7 @@
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       )
-      ,url("img.jpg/box_pascuas.jpeg");
+      ,url("img/box_pascuas.jpeg");
   }
   #Asesoramiento .container {
     text-align: center;
@@ -273,7 +270,7 @@
     margin-top: 0%;
   }
   #somos-enamorarte .imagenes-container {
-    background-image: url("img.jpg/didactico_arcoiris.jpg");
+    background-image: url("img/didactico_arcoiris.jpg");
     background-size: cover;
     background-position: center center;
     height: 450px;
@@ -297,10 +294,10 @@
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   }
   #Asesoramiento {
-    background-image: url("img.jpg/enamorarte_frases.jpg");
+    background-image: url("img/enamorarte_frases.jpg");
     background-repeat: no-repeat;
     background-size: 500px 400px;
-    background-position: calc(100vw - 600px) 120px;
+    background-position: calc(100vw - 500px) 120px;
   }
   #Asesoramiento .container {
     text-align: initial;
@@ -322,7 +319,7 @@
     }
   }
   
-  /* Estilos para el botón flotante de WhatsApp */
+  /* botón flotante de WhatsApp */
 .float {
     position: fixed;
     width: "60px";

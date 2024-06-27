@@ -1,0 +1,35 @@
+
+#cart-container{
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .crearProductoTienda {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+  }
+  
+  .crearProductoTienda img{
+    height: 100%;
+  }
+  
+  .crearProductoTienda h3{
+    width: 130px;
+  }
+  .crearProductoTienda div{
+    background-color: var(--color-acento-claro);
+    padding: 3px;
+    border-radius: 5px;
+  }
+  
+  #totales{
+    text-align: center;
+  }
+  
+  #carrito-vacio{
+    text-align: center;
+  }
+
+  

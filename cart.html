@@ -5,14 +5,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./cart.css">
   <script src="https://fontawesome.com/icons/whatsapp?f=brands&s=solid"></script>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <script src="./index.html"></script>
    <script src="./js/index.js" defer></script>
-    <script src="./index.css"></script>
-    <script src="./js/cartService.js" defer></script>
+   <script src="./js/CarritoTienda.js"></script>
+    <script src="./js/CartService.js" defer></script>
+    <script src="./js/carritoService.js" defer></script>
     <title>ENAMOR💗ARTE</title>
 </head>
 
@@ -22,38 +23,37 @@
     </a> 
     
   <header>
-    <a href="./index.html"><img src="./img.jpg/logo-carrito.jpg"
-       id="logocarrito" alt="carrito"></a>
+    <a href="./index.html">
+      <img src="./img.jpg/logo-carrito.jpg" id="logocarrito" 
+      alt=carrito><span id="cuenta-carrito">0</span></a>
     <div class="container">
-      <p class="logo">ENAMOR💗ARTE</p>
+      <p class="logo">ENAMOR💗ARTE</p> </div>
       <nav>
-        <a href="#somos-enamorarte">Sobre Nosotros</a>
-        <a href="#nuestra-tienda">Tienda</a>
-        <a href="#Asesoramiento">Asesoramiento</a>
-        <a href="cart.html" id="cart"><img src="img.jpg/logo-carrito.jpg"
-            alt=Carrito de compras>
-            <span id="cuenta carrito"></span></a>
-            <div>
+        <div>
+        <a href="./cart.html" id="cart"><img src="img/logo-carrito.jpg"
+            alt=Carrito><span id="cuenta-carrito">0</span></a>
+          </div>
+          </nav>
+       
+        </header>
+        <main>
+          <div>
             <section id="#CarritoTienda"></section>
            <section id="total-container">
-             <p>Total unidades: <span id="cantidad">0</span></p>
+             <p>Total unidades: $<span id="cantidad">0</span></p>
              <p>Total precio: $<span id="precio">0</span></p>
              <button disabled>Comprar</button> 
              <button id="reiniciar">Reiniciar</button>
            </section>
-         <main>
-           <section id="productos-container"></section>
+          </div>
          </main>
-        </div>">
-      </nav>
       
-  </header>
-  
-
- 
 
   <footer>
     <div class="container">
       <p>&copy; Enamorarte 2024</p>
     </div>
   </footer>
+    
+  </body>
+  </html>
